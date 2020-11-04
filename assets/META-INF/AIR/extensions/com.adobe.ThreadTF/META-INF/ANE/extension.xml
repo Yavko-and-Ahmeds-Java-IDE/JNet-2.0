@@ -1,0 +1,34 @@
+<extension xmlns="http://ns.adobe.com/air/extension/32.0">
+	<id>com.adobe.ThreadTF</id>
+	<versionNumber>1</versionNumber>
+	<platforms>
+		<platform name="Android-ARM">
+	        <applicationDeployment>
+				<nativeLibrary>ThreadTF.jar</nativeLibrary>
+				<initializer>com.nativeExt.threadTF.ThreadTFExtension</initializer>
+				<finalizer>com.nativeExt.threadTF.ThreadTFExtension</finalizer>
+	        </applicationDeployment>
+	    </platform>
+		<platform name="Android-x86">
+	        <applicationDeployment>
+				<nativeLibrary>ThreadTF.jar</nativeLibrary>
+				<initializer>com.nativeExt.threadTF.ThreadTFExtension</initializer>
+				<finalizer>com.nativeExt.threadTF.ThreadTFExtension</finalizer>
+	        </applicationDeployment>
+	    </platform>
+		<platform name="Android-ARM64">
+	        <applicationDeployment>
+				<nativeLibrary>ThreadTF.jar</nativeLibrary>
+				<initializer>com.nativeExt.threadTF.ThreadTFExtension</initializer>
+				<finalizer>com.nativeExt.threadTF.ThreadTFExtension</finalizer>
+	        </applicationDeployment>
+	    </platform>
+		<platform name="Android-x64">
+	        <applicationDeployment>
+				<nativeLibrary>ThreadTF.jar</nativeLibrary>
+				<initializer>com.nativeExt.threadTF.ThreadTFExtension</initializer>
+				<finalizer>com.nativeExt.threadTF.ThreadTFExtension</finalizer>
+	        </applicationDeployment>
+	    </platform>
+	</platforms>
+</extension>

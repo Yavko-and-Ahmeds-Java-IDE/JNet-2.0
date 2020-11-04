@@ -1,0 +1,16 @@
+<platform xmlns="http://ns.adobe.com/air/extension/32.0">
+    <packagedDependencies>
+	   <packagedDependency>play-services-ads-9.8.0.jar</packagedDependency>
+	   <packagedDependency>play-services-ads-lite-9.8.0.jar</packagedDependency>
+	   <packagedDependency>play-services-base-9.8.0.jar</packagedDependency>
+	   <packagedDependency>play-services-basement-9.8.0.jar</packagedDependency>
+	   <packagedDependency>play-services-gass-9.8.0.jar</packagedDependency>
+	   <packagedDependency>play-services-tasks-9.8.0.jar</packagedDependency>
+    </packagedDependencies>
+    <packagedResources>
+		<packagedResource>
+			<packageName>com.google.android.gms</packageName>
+			<folderName>google-play-services-ads-res</folderName>
+		</packagedResource>
+	</packagedResources>
+</platform>

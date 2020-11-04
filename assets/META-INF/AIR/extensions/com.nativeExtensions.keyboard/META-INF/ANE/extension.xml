@@ -1,0 +1,34 @@
+<extension xmlns="http://ns.adobe.com/air/extension/32.0">
+	<id>com.nativeExtensions.keyboard</id>
+	<versionNumber>1</versionNumber>
+	<platforms>
+		<platform name="Android-ARM">
+	        <applicationDeployment>
+				<nativeLibrary>keyboard.jar</nativeLibrary>
+				<initializer>com.nativeExtensions.keyboard.KeyboardExtension</initializer>
+				<finalizer>com.nativeExtensions.keyboard.KeyboardExtension</finalizer>
+	        </applicationDeployment>
+	    </platform>
+		<platform name="Android-x86">
+	        <applicationDeployment>
+				<nativeLibrary>keyboard.jar</nativeLibrary>
+				<initializer>com.nativeExtensions.keyboard.KeyboardExtension</initializer>
+				<finalizer>com.nativeExtensions.keyboard.KeyboardExtension</finalizer>
+	        </applicationDeployment>
+	    </platform>
+		<platform name="Android-ARM64">
+	        <applicationDeployment>
+				<nativeLibrary>keyboard.jar</nativeLibrary>
+				<initializer>com.nativeExtensions.keyboard.KeyboardExtension</initializer>
+				<finalizer>com.nativeExtensions.keyboard.KeyboardExtension</finalizer>
+	        </applicationDeployment>
+	    </platform>
+		<platform name="Android-x64">
+	        <applicationDeployment>
+				<nativeLibrary>keyboard.jar</nativeLibrary>
+				<initializer>com.nativeExtensions.keyboard.KeyboardExtension</initializer>
+				<finalizer>com.nativeExtensions.keyboard.KeyboardExtension</finalizer>
+	        </applicationDeployment>
+	    </platform>
+	</platforms>
+</extension>

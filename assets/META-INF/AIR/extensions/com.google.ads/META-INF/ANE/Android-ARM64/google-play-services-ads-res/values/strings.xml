@@ -1,0 +1,9 @@
+<resources>
+
+    <integer name="google_play_services_version">9877000</integer>
+	
+	<string name="app_name">Google AdMob Integration</string>
+	
+	<!-- <string name="test">Integration</string> -->
+
+</resources>

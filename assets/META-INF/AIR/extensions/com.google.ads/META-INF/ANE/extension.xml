@@ -1,0 +1,34 @@
+<extension xmlns="http://ns.adobe.com/air/extension/32.0">
+	<id>com.google.ads</id>
+	<versionNumber>1</versionNumber>
+	<platforms>
+		<platform name="Android-ARM">
+	        <applicationDeployment>
+				<nativeLibrary>ADS.jar</nativeLibrary>
+				<initializer>com.google.ads.BannerExtension</initializer>
+				<finalizer>com.google.ads.BannerExtension</finalizer>
+	        </applicationDeployment>
+	    </platform>
+		<platform name="Android-x86">
+	        <applicationDeployment>
+				<nativeLibrary>ADS.jar</nativeLibrary>
+				<initializer>com.google.ads.BannerExtension</initializer>
+				<finalizer>com.google.ads.BannerExtension</finalizer>
+	        </applicationDeployment>
+	    </platform>
+		<platform name="Android-ARM64">
+	        <applicationDeployment>
+				<nativeLibrary>ADS.jar</nativeLibrary>
+				<initializer>com.google.ads.BannerExtension</initializer>
+				<finalizer>com.google.ads.BannerExtension</finalizer>
+	        </applicationDeployment>
+	    </platform>
+		<platform name="Android-x64">
+	        <applicationDeployment>
+				<nativeLibrary>ADS.jar</nativeLibrary>
+				<initializer>com.google.ads.BannerExtension</initializer>
+				<finalizer>com.google.ads.BannerExtension</finalizer>
+	        </applicationDeployment>
+	    </platform>
+	</platforms>
+</extension>

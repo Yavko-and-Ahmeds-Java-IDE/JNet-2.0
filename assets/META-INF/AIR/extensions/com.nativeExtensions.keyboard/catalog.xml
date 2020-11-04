@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+    <versions>
+        <swc version="1.2"/>
+        <compiler name="ActionScript Compiler" version="2.0.0" build="354209"/>
+    </versions>
+    <features>
+        <feature-script-deps/>
+    </features>
+    <libraries>
+        <library path="library.swf">
+            <script name="com/nativeExtensions/keyboard/CustomKeyboard" mod="1577450054270">
+                <def id="com.nativeExtensions.keyboard:CustomKeyboard"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Error" type="e"/>
+                <dep id="Function" type="s"/>
+                <dep id="JSON" type="e"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+                <dep id="com.nativeExtensions.keyboard:CustomKeyboardEvent" type="e"/>
+                <dep id="com.nativeExtensions.keyboard:CustomSoftKeyboardEvent" type="e"/>
+                <dep id="com.nativeExtensions.keyboard:Size" type="e"/>
+                <dep id="flash.desktop:NativeApplication" type="e"/>
+                <dep id="flash.events:Event" type="s"/>
+                <dep id="flash.events:EventDispatcher" type="s"/>
+                <dep id="flash.events:StatusEvent" type="s"/>
+                <dep id="flash.external:ExtensionContext" type="s"/>
+                <dep id="trace" type="e"/>
+            </script>
+            <script name="com/nativeExtensions/keyboard/CustomKeyboardEvent" mod="1520634551332">
+                <def id="com.nativeExtensions.keyboard:CustomKeyboardEvent"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="flash.events:Event" type="i"/>
+            </script>
+            <script name="com/nativeExtensions/keyboard/CustomSoftKeyboardEvent" mod="1520374258961">
+                <def id="com.nativeExtensions.keyboard:CustomSoftKeyboardEvent"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="flash.events:Event" type="i"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/nativeExtensions/keyboard/Size" mod="1520369217872">
+                <def id="com.nativeExtensions.keyboard:Size"/>
+                <dep id="Object" type="i"/>
+                <dep id="int" type="s"/>
+            </script>
+            <digests>
+                <digest type="SHA-256" signed="false" value="ed08c1fbe863b777a8066d26b61d66439a56bb30b913ced6c12258d6ec5e92bb"/>
+            </digests>
+        </library>
+    </libraries>
+</swc>

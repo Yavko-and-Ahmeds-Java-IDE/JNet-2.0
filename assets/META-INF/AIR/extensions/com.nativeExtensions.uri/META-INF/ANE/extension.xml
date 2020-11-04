@@ -1,0 +1,34 @@
+<extension xmlns="http://ns.adobe.com/air/extension/32.0">
+	<id>com.nativeExtensions.uri</id>
+	<versionNumber>1</versionNumber>
+	<platforms>
+		<platform name="Android-ARM">
+	        <applicationDeployment>
+				<nativeLibrary>contentURIToPath.jar</nativeLibrary>
+				<initializer>com.nativeExtensions.uri.ContentURIToPathExtension</initializer>
+				<finalizer>com.nativeExtensions.uri.ContentURIToPathExtension</finalizer>
+	        </applicationDeployment>
+	    </platform>
+		<platform name="Android-x86">
+	        <applicationDeployment>
+				<nativeLibrary>contentURIToPath.jar</nativeLibrary>
+				<initializer>com.nativeExtensions.uri.ContentURIToPathExtension</initializer>
+				<finalizer>com.nativeExtensions.uri.ContentURIToPathExtension</finalizer>
+	        </applicationDeployment>
+	    </platform>
+		<platform name="Android-ARM64">
+	        <applicationDeployment>
+				<nativeLibrary>contentURIToPath.jar</nativeLibrary>
+				<initializer>com.nativeExtensions.uri.ContentURIToPathExtension</initializer>
+				<finalizer>com.nativeExtensions.uri.ContentURIToPathExtension</finalizer>
+	        </applicationDeployment>
+	    </platform>
+		<platform name="Android-x64">
+	        <applicationDeployment>
+				<nativeLibrary>contentURIToPath.jar</nativeLibrary>
+				<initializer>com.nativeExtensions.uri.ContentURIToPathExtension</initializer>
+				<finalizer>com.nativeExtensions.uri.ContentURIToPathExtension</finalizer>
+	        </applicationDeployment>
+	    </platform>
+	</platforms>
+</extension>

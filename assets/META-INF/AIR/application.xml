@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<application xmlns="http://ns.adobe.com/air/application/33.1">
+	<id>JavaEditor</id>
+	<versionNumber>1.0.245</versionNumber>
+	<filename>JNet</filename>
+	<name>JNet</name>
+	<description><![CDATA[JNet est un éditeur Java très simple, il permet de colorer la syntaxe : fonctions, variables, méthodes, constantes. Permet d'ouvrir par défaut les fichiers portant l’extension : jav, java.]]></description>
+	<copyright><![CDATA[gestureDevelop]]></copyright>
+	<initialWindow>
+		<content>gen.swf</content>
+		<autoOrients>true</autoOrients>
+		<softKeyboardBehavior>none</softKeyboardBehavior>
+	</initialWindow>
+	<icon>
+		<image16x16>/assets/icon_16.png</image16x16>
+		<image32x32>/assets/icon_32.png</image32x32>
+		<image48x48>/assets/icon_48.png</image48x48>
+		<image72x72>/assets/icon_72.png</image72x72>
+	</icon>
+	<android>
+		<colorDepth>16bit</colorDepth>
+		<manifestAdditions> 
+       		<![CDATA[ 
+           		<manifest>
+					<!-- <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="22"/> -->
+                	<uses-permission android:name="android.permission.PERMISSION_NAME" />
+					<uses-permission android:name="android.permission.INTERNET" />
+					<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+					<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+					<uses-permission android:name="android.permission.VIBRATE" />
+					<application>
+						<meta-data android:name="com.google.android.gms.version"
+							android:value="@integer/google_play_services_version" />
+						<activity android:name="com.google.android.gms.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+						android:theme="@android:style/Theme.Translucent" />
+						<activity>
+							<intent-filter>
+								<action android:name="android.intent.action.MAIN"/>
+								<category android:name="android.intent.category.LAUNCHER"/>
+							</intent-filter>
+							<intent-filter>
+								<action android:name="android.intent.action.VIEW"/>
+								<category android:name="android.intent.category.BROWSABLE"/>
+								<category android:name="android.intent.category.DEFAULT"/>
+								<data android:scheme="javaeditoruri" />
+							</intent-filter>
+							<intent-filter>
+								<action android:name="android.intent.action.VIEW"/>
+								<category android:name="android.intent.category.BROWSABLE"/>
+								<category android:name="android.intent.category.DEFAULT"/>
+								<data android:scheme="file" />
+								<data android:scheme="content" />
+								<data android:mimeType="*/*"/>
+								<data android:pathPattern=".*\\.jav" />
+								<data android:pathPattern=".*\\.java" />
+								<data android:host="*" />
+							</intent-filter>
+						</activity>
+						<!--<activity android:name="com.nativeExtensions.permissions.RequestPermissionsActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar" />-->
+					</application>
+            	</manifest> 
+        		]]> 
+    		</manifestAdditions>
+	</android>
+	<extensions>
+			<extensionID>com.google.ads</extensionID>
+			<extensionID>com.adobe.ThreadTF</extensionID>
+			<!--<extensionID>com.nativeExtensions.permissions</extensionID>-->
+			<extensionID>com.nativeExtensions.keyboard</extensionID>
+			<extensionID>com.nativeExtensions.uri</extensionID>
+	</extensions>
+</application>
